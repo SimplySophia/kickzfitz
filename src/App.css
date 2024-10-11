@@ -12,13 +12,14 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  max-width: 1280px;
-  margin: 0 auto;
   height: 72px;
 }
 nav ul {
@@ -27,7 +28,7 @@ nav ul {
   gap: 1.5rem;
   margin: auto;
 }
-img {
+.logo {
   width: 200px;
   border-radius: 50px;
 }
@@ -39,4 +40,32 @@ button {
   height: 1.5rem;
   font-weight: 500;
   margin: auto;
+}
+.hero{
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 72px);
+}
+.hero h1{
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 4.5rem;
+  width: 15ch;
+}
+.hero p{
+  font-weight: 500;
+  width: 40ch;
+  color: var(--gray);
+}
+.hero-btn {
+  display: inline-block;
+  margin: auto;
+}
+.sec-btn{
+  background-color: transparent;
+  color: var(--gray);
+  border: 1px solid var(--gray);
+}
+.hero-image img {
+  width: 400px;
 }

@@ -1,7 +1,7 @@
 
 const Hero = () => {
   return (
-    <main className="hero">
+    <main className="hero container">
       <div className="hero-content">
         <h1>The Best Balance For Your Feet</h1>
         <p>
@@ -11,7 +11,16 @@ const Hero = () => {
         </p>
         <div className="hero-btn">
             <button>Shop Now</button>
-            <button>Category</button>
+            <button className="sec-btn">Category</button>
+        </div>
+         
+        <div className="shopping">
+            <p>Also Available On</p>
+
+            <div className="brand-icons">
+            <img src="/images/Amazon icon.png" alt="amazon-logo" />
+            <img src="/images/flipkart.png" alt="flipkart-logo" />
+            </div>
         </div>
       </div>
       <div className="hero-image">
